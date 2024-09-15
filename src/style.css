@@ -12,6 +12,7 @@
   --input-color-default: #E5E7EB;
   --input-color-selected: blue;
   --input-color-invalid: red;
+  --box-shadow-color: rgba(0, 0, 0, 0.14);
   --container-width: calc(262px * 2 + 5rem)
 }
 
@@ -92,9 +93,10 @@ h1 {
 
 #fields {
   background-color: var(--form-color-bg);
-  box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 6px 2px var(--box-shadow-color);
   padding-top: 1.5rem;
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -123,3 +125,12 @@ input {
   border-radius: 5px;
 }
 
+input:user-invalid {
+  border-color: red;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 2px 2px 4px 2px var(--box-shadow-color);
+}
