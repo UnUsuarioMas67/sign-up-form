@@ -46,6 +46,7 @@ body {
 
   position: absolute;
   top: 20%;
+  user-select: none;
 }
 
 .logo img {
