@@ -128,7 +128,13 @@ input {
   border-radius: 5px;
 }
 
-input:user-invalid {
+input:user-invalid,
+/* 
+  Display password inputs as invalid if the password validation
+  message is not hidden 
+*/
+p:has(#password-validation:not([hidden])) #password:not(:focus),
+p:has(#password-validation:not([hidden])) + p #password-confirm:not(:focus) {
   border-color: red;
 }
 
