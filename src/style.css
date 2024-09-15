@@ -138,6 +138,11 @@ input:focus {
   box-shadow: 2px 2px 4px 2px var(--box-shadow-color);
 }
 
+.invalid-message {
+  color: var(--input-color-invalid);
+  font-size: 0.75rem;
+}
+
 button {
   background-color: var(--primary-color);
   border: none;

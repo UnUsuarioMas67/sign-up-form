@@ -61,7 +61,10 @@
 
           <p>
             <label for="password">PASSWORD</label><br>
-            <input type="password" name="password" id="password" size="25" required>
+            <input type="password" name="password" id="password" size="25" 
+            required aria-describedby="password-validation">
+            <br>
+            <span class="invalid-message" id="password-validation" hidden>* Passwords do not match</span>
           </p>
 
           <p>
