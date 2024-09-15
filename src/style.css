@@ -134,3 +134,28 @@ input:focus {
   border-color: blue;
   box-shadow: 2px 2px 4px 2px var(--box-shadow-color);
 }
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 3.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#submit > p {
+  margin-bottom: 2rem;
+}
+
+.login {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+button:hover, .login:hover {
+  filter: brightness(0.9);
+}
