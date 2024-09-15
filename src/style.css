@@ -7,8 +7,8 @@
   --logo-color: white;
   --primary-color: #596D48;
   --bg-color: #f9fafb;
-  --form-bg-color: white;
-  --label-color: #1f2937;
+  --form-color-bg: white;
+  --form-color-text: #1f2937;
   --input-color-default: #E5E7EB;
   --input-color-selected: blue;
   --input-color-invalid: red;
