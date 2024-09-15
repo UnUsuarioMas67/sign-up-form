@@ -74,6 +74,20 @@ main {
   justify-content: center;
 
   background: var(--bg-color);
-  padding-left: 4rem;
 }
+
+h1, section {
+  padding-left: 3rem;
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  max-width: 800px;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+
 
