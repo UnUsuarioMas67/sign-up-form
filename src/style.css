@@ -110,6 +110,7 @@ h2 {
   flex-flow: row wrap;
   justify-content: space-between;
   row-gap: 1.5rem;
+  column-gap: 2rem;
   max-width: var(--container-width);
 }
 
@@ -160,4 +161,44 @@ button {
 
 button:hover, .login:hover {
   filter: brightness(0.9);
+}
+
+@media (max-width: 700px) {
+  body {
+    display: block;
+  }
+
+  .logo-sidebar {
+    flex: none;
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .logo {
+    top: 30%;
+  }
+
+  main {
+    flex: none;
+    padding-bottom: 1.5rem;
+  }
+
+  h1, h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  h1, section {
+    padding: 0 1rem;
+  }
+
+  .container {
+    justify-content: center;
+    margin: auto;
+  }
+
+  #submit {
+    text-align: center;
+  }
 }
